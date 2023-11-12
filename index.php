@@ -1,4 +1,4 @@
 <?php
-echo "tasha is cute";
+echo "";
 
 ?>
