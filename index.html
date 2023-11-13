@@ -6,9 +6,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Avengers Character Search</title>
     <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Avengers Characters Search</h1>
-    <button id="searchButton">search</button>
+    <div class="container">
+    <header>
+        <h1>Avengers Characters Search</h1>
+    </header>
+    <p class="instruction">Search by Full Name or Alias</p>
+    <div id="search-space">
+        <input type="text" id="searchInput" placeholder="Enter your search">
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="result"></div>
+</div>
 </body>
 </html>
